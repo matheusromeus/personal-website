@@ -3,6 +3,8 @@ import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
+import { Section } from "./_components/section";
+import { useState } from "react";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -11,19 +13,21 @@ export default function Index() {
 
   const morePosts = allPosts.slice(1);
 
+
   return (
     <main>
       <Container>
         <Intro />
-        <HeroPost
+        {/* <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}
           date={heroPost.date}
           author={heroPost.author}
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
-        />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        /> */}
+        <Section />
+        {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
       </Container>
     </main>
   );
