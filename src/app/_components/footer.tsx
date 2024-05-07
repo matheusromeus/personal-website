@@ -6,7 +6,7 @@ export function Footer() {
     <Container>
       <div className="mt-52 text-[17px] flex justify-between">
         <div className="underline hover:no-underline hover:cursor-pointer">
-          featured works.
+          {/* check out my featured works↗️ */}
         </div>
         <div>
         © Digital Bleeding Studios. 2024.
