@@ -1,7 +1,8 @@
-import Footer from "@/app/_components/footer";
 import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+
 
 
 import "./globals.css";
@@ -56,9 +57,11 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={inter.className}>
-        <div>{children}</div>
-        <Footer />
+      <body className={`${inter.className}`}>
+        <div>
+          {children}
+          <Analytics />
+        </div>
       </body>
     </html>
   );
