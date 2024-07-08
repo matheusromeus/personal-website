@@ -41,16 +41,11 @@ export default function RootLayout({
           href="/favicon/favicon.png"
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="/favicon/safari-pinned-tab.svg"
-          color="#000000"
-        />
         <link rel="shortcut icon" href="/favicon/favicon.png" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="msapplication-config"
-          content="/favicon/browserconfig.xml"
+          content="/public/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
