@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   title: `Kevin Roy`,
   description: `Welcome to my safe space on the internet.`,
   openGraph: {
-    images: "/og-image.png",
+    images:
+      "https://drive.google.com/file/d/1ynGhSHaBjYy19qRzzwEm6UDwA_SJuX5I/view?usp=sharing",
   },
 };
 
