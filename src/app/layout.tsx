@@ -1,9 +1,7 @@
 import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
-
-
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
