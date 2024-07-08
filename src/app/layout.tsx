@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: `Kevin Roy`,
   description: `Welcome to my safe space on the internet.`,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    images: "/og-image.png",
   },
 };
 
@@ -27,15 +27,15 @@ export default function RootLayout({
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="public/favicon/kr-favicon.png"
+          href="/kr-favicon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="public/favicon/kr-favicon.png"
+          href="/kr-favicon.png"
         />
-        <link rel="shortcut icon" href="public/favicon/kr-favicon.png" />
+        <link rel="shortcut icon" href="/kr-favicon.png" />
       </head>
       <body className={`${inter.className}`}>
         <div>
