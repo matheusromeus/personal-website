@@ -27,15 +27,15 @@ export default function RootLayout({
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon/favicon.png"
+          href="public/favicon/kr-favicon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon/favicon.png"
+          href="public/favicon/kr-favicon.png"
         />
-        <link rel="shortcut icon" href="/favicon/favicon.png" />
+        <link rel="shortcut icon" href="public/favicon/kr-favicon.png" />
       </head>
       <body className={`${inter.className}`}>
         <div>
