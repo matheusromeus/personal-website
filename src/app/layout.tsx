@@ -35,15 +35,7 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon/favicon.png"
         />
-        <link rel="manifest" href="/favicon/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon/favicon.png" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta
-          name="msapplication-config"
-          content="/public/favicon/browserconfig.xml"
-        />
-        <meta name="theme-color" content="#000" />
-        <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className={`${inter.className}`}>
         <div>
