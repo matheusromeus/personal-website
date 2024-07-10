@@ -24,9 +24,9 @@ export default function Index() {
     <main>
       {/* {isLoading && isHome ? <SplashScreen /> : */}
       <Container>
-        <Intro />
         <Section />
         <Another_section />
+        <Intro />
         {/* <Footer /> */}
       </Container>
       {/* } */}
