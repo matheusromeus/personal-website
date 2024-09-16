@@ -7,6 +7,7 @@ import SplashScreen from "./_components/splash-screen";
 import Footer from "./_components/footer";
 import { usePathname } from "next/navigation";
 import Another_section from "./_components/another_section";
+import HoverNav from "./_components/hover-nav";
 
 export default function Index() {
   // const pathname = usePathname()
@@ -23,6 +24,7 @@ export default function Index() {
   return (
     <main>
       {/* {isLoading && isHome ? <SplashScreen /> : */}
+      <HoverNav />
       <Container>
         <Section />
         <Another_section />
