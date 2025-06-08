@@ -10,28 +10,28 @@ import Another_section from "./_components/another_section";
 import HoverNav from "./_components/hover-nav";
 
 export default function Index() {
-  // const pathname = usePathname()
-  // const isHome = pathname === '/'
-  // const [isLoading, setIsLoading] = useState(true)
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(()=>{
-  //   setIsLoading(true)
-  //   setTimeout(()=>{
-  //     setIsLoading(false)
-  //   },3000)
-  // },[])
+  useEffect(() => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
 
   return (
     <main>
-      {/* {isLoading && isHome ? <SplashScreen /> : */}
-      <HoverNav />
-      <Container>
-        <Section />
-        <Another_section />
-        <Intro />
-        {/* <Footer /> */}
-      </Container>
-      {/* } */}
+      {isLoading && isHome ? (
+        <SplashScreen />
+      ) : (
+        <Container>
+          <Section />
+          <Another_section />
+          <Intro />
+        </Container>
+      )}
     </main>
   );
 }
