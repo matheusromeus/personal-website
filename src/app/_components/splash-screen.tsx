@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Intro } from "./intro";
 
 const SplashScreen = () => {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      hai guyss
+    <div className="flex justify-center items-center h-screen">
+      <Intro />
     </div>
-  )
-}
+  );
+};
 
-export default SplashScreen
+export default SplashScreen;

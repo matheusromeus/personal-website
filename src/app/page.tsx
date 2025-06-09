@@ -29,7 +29,7 @@ export default function Index() {
         <Container>
           <Section />
           <Another_section />
-          <Intro />
+          {/* <Intro /> */}
         </Container>
       )}
     </main>
