@@ -3,11 +3,7 @@ type Props = {
 };
 
 const Container = ({ children }: Props) => {
-  return (
-    <div className="container mr-auto ml-10 px-5 overflow-hidden">
-      {children}
-    </div>
-  );
+  return <div className="container overflow-hidden">{children}</div>;
 };
 
 export default Container;
